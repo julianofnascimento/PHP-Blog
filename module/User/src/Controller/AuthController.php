@@ -51,6 +51,7 @@ class AuthController extends AbstractActionController
 
     public function logoutAction()
     {
-        return new ViewModel();
+        $this->authService->clearIdentity();
+        return $this->redirect()->toRoute('login');
     }
 }

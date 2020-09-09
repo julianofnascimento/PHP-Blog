@@ -11,13 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db88d83-56a0-4106-bb89-524cfd536dff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/config/module.config.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/view/user/auth/login.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/view/user/auth/login.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,8 +123,16 @@
       <option name="presentableId" value="Default" />
       <updated>1599667661115</updated>
       <workItem from="1599667663913" duration="7690000" />
-      <workItem from="1599687177420" duration="445000" />
+      <workItem from="1599687177420" duration="765000" />
     </task>
+    <task id="LOCAL-00001" summary="Login process finished">
+      <created>1599687935046</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599687935046</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +149,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Login process finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Login process finished" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2160" y="443" key="NewPhpFileDialog" timestamp="1599670000510">
