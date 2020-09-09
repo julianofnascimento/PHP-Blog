@@ -2,7 +2,6 @@
 
 namespace Blog;
 
-use Zend\ServiceManager\Factory\InvokableFactory;
 
 return [
     'controllers' => [

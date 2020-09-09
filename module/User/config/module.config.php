@@ -1,6 +1,6 @@
 <?php
 
-namespace Blog;
+namespace User;
 
 use User\Controller\AuthController;
 use Zend\Router\Http\Literal;
@@ -33,7 +33,7 @@ return [
 
     'view_manager' => [
         'template_path_stack' => [
-            'blog' => __DIR__."/../view"
+            'user' => __DIR__."/../view"
         ]
     ]
 ];
