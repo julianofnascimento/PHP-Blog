@@ -5,6 +5,8 @@ namespace Blog;
 
 use Blog\Controller\BlogController;
 use Blog\Controller\Factory\BlogControllerFactory;
+use Blog\Controller\Factory\PostControllerFactory;
+use Blog\Controller\PostController;
 use Blog\Form\Factory\PostFormFactory;
 use Blog\Form\PostForm;
 use Blog\Model\Factory\PostTableFactory;
@@ -35,7 +37,8 @@ class Module implements ConfigProviderInterface
     {
         return [
             'factories'=>[
-                BlogController::class => BlogControllerFactory::class
+                BlogController::class => BlogControllerFactory::class,
+                PostController::class => PostControllerFactory::class
             ]
         ];
     }

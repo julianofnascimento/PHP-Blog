@@ -1,0 +1,11 @@
+<?php
+$this->headTitle("Blog");
+?>
+<div class="row">
+    <div class="thumbnail">
+        <div class="caption">
+            <h2><?= $this->escapeHtml($post->title); ?></h2>
+            <p><?= $post->content; ?></p>
+        </div>
+    </div>
+</div>

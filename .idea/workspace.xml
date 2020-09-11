@@ -11,8 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db88d83-56a0-4106-bb89-524cfd536dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/blog.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/blog.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/User/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Module.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,9 +117,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module/Blog/view/blog/post" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pasto\PhpstormProjects\untitled\zf3\module\Blog\view\blog\post" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -123,7 +141,9 @@
       <option name="presentableId" value="Default" />
       <updated>1599667661115</updated>
       <workItem from="1599667663913" duration="7690000" />
-      <workItem from="1599687177420" duration="765000" />
+      <workItem from="1599687177420" duration="5822000" />
+      <workItem from="1599756591738" duration="7379000" />
+      <workItem from="1599847309085" duration="1191000" />
     </task>
     <task id="LOCAL-00001" summary="Login process finished">
       <created>1599687935046</created>
@@ -155,9 +175,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="Login process finished" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2160" y="443" key="NewPhpFileDialog" timestamp="1599670000510">
+    <state x="1780" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599756652067">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599670000510" />
+    <state x="1780" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599756652067" />
+    <state x="2024" y="243" key="NewPhpClassDialog" timestamp="1599762410224">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2024" y="243" key="NewPhpClassDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599762410224" />
+    <state x="2160" y="443" key="NewPhpFileDialog" timestamp="1599762541969">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599762541969" />
   </component>
 </project>
