@@ -11,21 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7db88d83-56a0-4106-bb89-524cfd536dff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/index.phtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/src/Model/Comment.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/src/Model/CommentTable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableFactory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/CommentTableGatewayFactory.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/blog.db" beforeDir="false" afterPath="$PROJECT_DIR$/data/blog.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/BlogController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/Factory/PostControllerFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Controller/PostController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Form/CommentForm.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Form/CommentForm.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Factory/PostTableFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Model/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Model/PostTable.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/module/Blog/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/src/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/add.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/edit.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/blog/index.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Module.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Blog/view/blog/post/show.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,12 +117,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/module/Blog/view/blog/post" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/module/Blog/src/Model/Factory" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pasto\PhpstormProjects\untitled\zf3\module\Blog\src\Model\Factory" />
+      <recent name="C:\Users\pasto\PhpstormProjects\untitled\zf3\module\Blog\src\Model" />
       <recent name="C:\Users\pasto\PhpstormProjects\untitled\zf3\module\Blog\view\blog\post" />
     </key>
   </component>
@@ -143,7 +145,7 @@
       <workItem from="1599667663913" duration="7690000" />
       <workItem from="1599687177420" duration="5822000" />
       <workItem from="1599756591738" duration="7379000" />
-      <workItem from="1599847309085" duration="1191000" />
+      <workItem from="1599847309085" duration="9773000" />
     </task>
     <task id="LOCAL-00001" summary="Login process finished">
       <created>1599687935046</created>
@@ -152,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599687935046</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Show posts functionality">
+      <created>1599848870856</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599848870856</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,20 +181,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login process finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login process finished" />
+    <MESSAGE value="Show posts functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show posts functionality" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1780" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599756652067">
+    <state x="1780" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599852267140">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="1780" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599756652067" />
-    <state x="2024" y="243" key="NewPhpClassDialog" timestamp="1599762410224">
+    <state x="1780" y="175" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599852267140" />
+    <state x="2106" y="275" key="FileChooserDialogImpl" timestamp="1599852256598">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2024" y="243" key="NewPhpClassDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599762410224" />
-    <state x="2160" y="443" key="NewPhpFileDialog" timestamp="1599762541969">
+    <state x="2106" y="275" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599852256598" />
+    <state x="2024" y="243" key="NewPhpClassDialog" timestamp="1599853536011">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
-    <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599762541969" />
+    <state x="2024" y="243" key="NewPhpClassDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599853536011" />
+    <state x="2160" y="443" key="NewPhpFileDialog" timestamp="1599848818946">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2160" y="443" key="NewPhpFileDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1599848818946" />
   </component>
 </project>
